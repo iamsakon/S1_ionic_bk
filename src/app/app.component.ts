@@ -8,6 +8,7 @@ import { ListPage } from '../pages/list/list';
 import { LoginPage } from '../pages/login/login';
 import { SignUpPage } from '../pages/signup/signup';
 import { ModuleListPage } from '../pages/module-list/module-list';
+import { PackageListPage } from '../pages/package-list/package-list';
 
 @Component({
   templateUrl: 'app.html'
@@ -28,7 +29,8 @@ export class S1 {
       { title: 'List', component: ListPage },
       {title: 'Login', component: LoginPage},
 	{title: 'Sign Up', component: SignUpPage},
-	{title: 'Module List', component: ModuleListPage}
+	{title: 'Module List', component: ModuleListPage},
+	{title: 'Package List', component: PackageListPage}
     ];
 
   }
