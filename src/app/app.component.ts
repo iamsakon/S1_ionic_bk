@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { LoginPage } from '../pages/login/login';
 import { SignUpPage } from '../pages/signup/signup';
+import { ModuleListPage } from '../pages/module-list/module-list';
 
 @Component({
   templateUrl: 'app.html'
@@ -26,7 +27,8 @@ export class S1 {
       { title: 'Home', component: HomePage },
       { title: 'List', component: ListPage },
       {title: 'Login', component: LoginPage},
-	{title: 'Sign Up', component: SignUpPage}
+	{title: 'Sign Up', component: SignUpPage},
+	{title: 'Module List', component: ModuleListPage}
     ];
 
   }
