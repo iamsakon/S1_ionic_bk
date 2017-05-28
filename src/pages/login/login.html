@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>SIGN IN</h3>
+
+	<ion-list>
+		<ion-item>
+			<ion-label floating>Username</ion-label>
+			<ion-input type="text"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label floating>Password</ion-label>
+			<ion-input type="password"></ion-input>
+		</ion-item>
+	</ion-list>
+
+  <button ion-button outline>SIGN IN</button>
+  <button ion-button outline (click)="openSignUpPage()">SIGN UP</button>
+</ion-content>
