@@ -9,6 +9,7 @@ import { LoginPage } from '../pages/login/login';
 import { SignUpPage } from '../pages/signup/signup';
 import { ModuleListPage } from '../pages/module-list/module-list';
 import { PackageListPage } from '../pages/package-list/package-list';
+import { OwnerListPage } from '../pages/apm-owner-list/owner-list';
 
 @Component({
   templateUrl: 'app.html'
@@ -30,7 +31,8 @@ export class S1 {
       {title: 'Login', component: LoginPage},
 	{title: 'Sign Up', component: SignUpPage},
 	{title: 'Module List', component: ModuleListPage},
-	{title: 'Package List', component: PackageListPage}
+	{title: 'Package List', component: PackageListPage},
+	{title: 'Owner List', component: OwnerListPage}
     ];
 
   }
