@@ -9,6 +9,7 @@ import { LoginPage } from '../pages/login/login';
 import { SignUpPage } from '../pages/signup/signup';
 import { ModuleListPage } from '../pages/module-list/module-list';
 import { PackageListPage } from '../pages/package-list/package-list';
+import { OwnerPage } from '../pages/apm/owner/owner';
 import { OwnerListPage } from '../pages/apm/owner-list/owner-list';
 
 @Component({
@@ -32,6 +33,7 @@ export class S1 {
 	{title: 'Sign Up', component: SignUpPage},
 	{title: 'Module List', component: ModuleListPage},
 	{title: 'Package List', component: PackageListPage},
+		{title: 'Owner' , component: OwnerPage},
 	{title: 'Owner List', component: OwnerListPage}
     ];
 
